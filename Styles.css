@@ -275,7 +275,7 @@ nav .fas{
 .happy {
   font-family: Tahoma, sans-serif;
   text-align: center;
-  margin: 30px;
+  margin: 26px;
   background-image: linear-gradient(120deg, #ffd856 0%, #f98c6e 100%);
   transition: 0.1s;
 }
@@ -391,4 +391,5 @@ p {
   outline-color: #333;
   outline-style: dotted;
 }
+
 
