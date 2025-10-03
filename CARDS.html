@@ -1,0 +1,66 @@
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>Every Birthday card I Made and Will Forever Continue </title>
+    <link rel="stylesheet" href="Styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@200;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="Images/logo2.png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="BEST%20WISHES.html">BEST WISHES</a></li>
+                <li><a href="CARDS.html">CARDS</a></li>
+                <li><a href="DADJokes.html">DAD JOKES</a></li>
+            </ul>
+        </div>
+       <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+     <h1>Card</h1>
+
+</section>
+<!----------Card-------->
+
+ <body>
+    <div class="birthdayCard">
+      <div class="cardFront">
+        <h3 class="happy">HAPPY BIRTHDAY</h3>
+        <div class="balloons">
+          <div class="balloon-1"></div>
+          <div class="balloon-2"></div>
+          <div class="balloon-3"></div>
+          <div class="balloon-4"></div>
+        </div>
+      </div>
+      <div class="cardInside">
+        <h3 class="back">HAPPY BIRTHDAY</h3>
+        <p>Dear Lilah and Pepe,</p>
+        <p> NOW YOU'RE STUCK WITH THE MOMORY OF ME! NAH JK BUT  
+            I CAN SAY ATLEAST FROM WHAT I'VE SEEN YOU DESERV GREAT THINGS... 
+        </p>
+      </div>
+    </div>
+  </body>
+    
+<!----------JavaScript for mobile menu toggle-----> 
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>    
+    
+</body>
+</html>
