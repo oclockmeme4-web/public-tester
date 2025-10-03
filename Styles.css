@@ -370,7 +370,6 @@ nav .fas{
 }
 
 p {
-  font-family: "Brush Script MT", cursive;
   margin: 40px;
   color: #333;
 }
@@ -390,6 +389,7 @@ p {
   outline-color: #333;
   outline-style: dotted;
 }
+
 
 
 
