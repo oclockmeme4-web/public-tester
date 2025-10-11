@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
   font-family: "Nanum Myeongjo", serif;
   font-weight: 200;
@@ -20,7 +21,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background2.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -274,7 +275,7 @@ nav .fas{
 
 .happy {
   text-align: center;
-  margin: 26px;
+  margin: 30px;
   background-image: linear-gradient(120deg, #ffd856 0%, #f98c6e 100%);
   transition: 0.1s;
 }
@@ -370,6 +371,7 @@ nav .fas{
 }
 
 p {
+  
   margin: 40px;
   color: #333;
 }
@@ -382,17 +384,48 @@ p {
 }
 
 .back {
-  font-family: Tahoma, sans-serif;
+  
   color: #333;
   text-align: center;
   margin: 30px;
   outline-color: #333;
   outline-style: dotted;
 }
+/*---------valentines codes----------*/
+.sub-header2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.sub-header2 h1{
+    font-size: 80px;
+    font-weight: 500;
+    color: #6ADAF3;
+}
+.sub-header2 p{
+    color:#fff;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    column-gap: 20px;
+    max-width: 1300px;
+    margin: 30px;
+    position: absolute;
+    bottom: 12%;
+    right: 23%;
+}
 
-
-
-
-
-
-
+.container .tenor-gif-embed{
+    display: flex;
+    max-width: 400px;
+}
