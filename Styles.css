@@ -393,12 +393,13 @@ p {
 }
 /*---------valentines codes----------*/
 .sub-header2{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background2.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Japan.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
+    text-align: center;
+    color: #fff;
 }
 .sub-header2 h1{
     font-size: 80px;
@@ -428,4 +429,5 @@ p {
 .container .tenor-gif-embed{
     display: flex;
     max-width: 400px;
+
 }
